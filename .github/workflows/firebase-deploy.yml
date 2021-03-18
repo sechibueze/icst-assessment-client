@@ -1,8 +1,10 @@
 name: Deploy ICST to Firebase
+
 on:
+  push:
   pull_request:
-  branches:
-    - icst
+    branches:
+      - icst
 jobs:
   build:
     name: Build
