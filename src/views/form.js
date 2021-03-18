@@ -13,7 +13,7 @@ const Form = () => {
   });
   useEffect(() => {
     const getCategories = () => {
-      const uri = "http://questence.tqfe.net/api/v1/categories";
+      const uri = "https://questence.tqfe.net/api/v1/categories";
       axios
         .get(uri)
         .then(({ data }) => {
